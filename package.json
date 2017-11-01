@@ -1,0 +1,19 @@
+{
+  "name": "pr-parser",
+  "version": "1.0.0",
+  "description": "Parser for Pull Requests",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "nyc --require mocha test --recursive"
+  },
+  "author": "Matthew Machuga | Auth0",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "nyc": "^11.2.1"
+  }
+}
