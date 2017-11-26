@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "nyc --require mocha test --recursive"
+    "test": "nyc mocha test --recursive"
   },
   "author": "Matthew Machuga | Auth0",
   "license": "MIT",
